@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #222222; /* Warna latar belakang sesuai */
+  --foreground: #ededed;
+  --text-color: #d5d5d5; /* Warna teks */
+}
+
+body {
+  color: var(--text-color);
+  background: var(--background);
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.75em;
+  margin: 0;
+  padding: 0;
+}
