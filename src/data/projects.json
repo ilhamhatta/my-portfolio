@@ -18,6 +18,24 @@
     ]
   },
   {
+    "title": "Clothing Inventory System",
+    "description": "A web-based application designed to display and manage a complete list of clothing products.",
+    "image": "/images/clothing-inventory.png",
+    "link": "https://marketplace-katering.vercel.app",
+    "technologies": [
+      { "icon": "FaPhp", "label": "PHP", "color": "text-indigo-500" },
+      { "icon": "SiLaravel", "label": "Laravel", "color": "text-rose-500" },
+      { "icon": "FaJs", "label": "JavaScript", "color": "text-yellow-400" },
+      { "icon": "FaCss3Alt", "label": "CSS", "color": "text-blue-500" },
+      {
+        "icon": "FaBootstrap",
+        "label": "Bootstrap",
+        "color": "text-purple-500"
+      },
+      { "icon": "SiMysql", "label": "MySQL", "color": "text-blue-500" }
+    ]
+  },
+  {
     "title": "New Student Registration System",
     "description": "A web system to simplify new student registration and help schools manage applications more efficiently.",
     "image": "/images/student-registration.png",
