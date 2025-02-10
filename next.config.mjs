@@ -5,9 +5,15 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export", // Pastikan output dalam bentuk HTML statis untuk Cloudflare
+  output: "export", // Gunakan mode static untuk Cloudflare Pages
+  experimental: {
+    optimizeCss: true,
+    optimizeFonts: true,
+    scrollRestoration: true,
+    externalDir: true,
+  },
   images: {
-    unoptimized: true, // Disable image optimization bawaan Next.js
+    formats: ["image/avif", "image/webp"], // Gunakan format gambar lebih kecil
   },
 };
 
