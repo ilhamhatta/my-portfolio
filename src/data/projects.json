@@ -62,7 +62,7 @@
       {
         "icon": "MdDesignServices",
         "label": "Design Thinking",
-        "color": "text-teal-500"
+        "color": "text-emerald-500"
       }
     ]
   },
@@ -76,7 +76,7 @@
       {
         "icon": "MdDesignServices",
         "label": "Design Thinking",
-        "color": "text-teal-500"
+        "color": "text-emerald-500"
       }
     ]
   }

@@ -48,6 +48,7 @@ const ProjectsSection = () => {
       <div className="w-full bg-[#252525] py-8 lg:py-16 px-8 lg:px-32 border-t-2 border-b-2 border-[#333333] flex items-center">
         <h1 className="text-4xl lg:text-5xl font-semibold text-center">
           Projects
+          <p className="text-emerald-500"></p>
         </h1>
       </div>
 
@@ -61,8 +62,6 @@ const ProjectsSection = () => {
               <Image
                 src={project.image}
                 alt={project.title}
-                // layout="fill"
-                // objectFit="cover"
                 fill
                 className="object-cover projects__row-img"
                 loading="lazy"
