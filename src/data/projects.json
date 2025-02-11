@@ -6,7 +6,7 @@
     "link": "https://marketplace-katering.vercel.app",
     "technologies": [
       { "icon": "FaPhp", "label": "PHP", "color": "text-indigo-500" },
-      { "icon": "SiLaravel", "label": "Laravel", "color": "text-rose-500" },
+      { "icon": "SiLaravel", "label": "Laravel", "color": "text-red-600" },
       { "icon": "FaJs", "label": "JavaScript", "color": "text-yellow-400" },
       { "icon": "FaCss3Alt", "label": "CSS", "color": "text-blue-500" },
       {
@@ -24,7 +24,7 @@
     "link": "https://marketplace-katering.vercel.app",
     "technologies": [
       { "icon": "FaPhp", "label": "PHP", "color": "text-indigo-500" },
-      { "icon": "SiLaravel", "label": "Laravel", "color": "text-rose-500" },
+      { "icon": "SiLaravel", "label": "Laravel", "color": "text-red-600" },
       { "icon": "FaJs", "label": "JavaScript", "color": "text-yellow-400" },
       { "icon": "FaCss3Alt", "label": "CSS", "color": "text-blue-500" },
       {
