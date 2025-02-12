@@ -101,7 +101,7 @@ const HomeSection = () => {
             className="hp-inner w-72 h-72 md:w-[28rem] md:h-[28rem] rounded-full
                  border-[18px] border-[#444] shadow-[0px_0px_18px_rgba(0,0,0,0.8)]"
             style={{
-              backgroundImage: "url('/profile.jpg')",
+              backgroundImage: "url('images/profile.jpg')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
