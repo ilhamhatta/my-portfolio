@@ -30,8 +30,8 @@ const HomeSection = () => {
           />
         </p>
 
-        <p className="text-sm md:text-lg mb-6">
-          As a Web Developer with expertise in front-end and back-end
+        <p className="text-sm md:text-lg mb-6 lg:mr-3">
+          As a Full-Stack Web Developer with expertise in front-end and back-end
           development, I create responsive, efficient, and user-friendly web
           applications.
         </p>
