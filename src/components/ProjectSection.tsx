@@ -75,6 +75,7 @@ const ProjectsSection = () => {
               <div className="flex gap-4 mt-4 text-xl relative">
                 {project.technologies.map((tech, i) => {
                   const Icon = icons[tech.icon];
+                  const tooltipKey = `${index}-${i}`;
                   return (
                     Icon && (
                       <div
@@ -82,7 +83,7 @@ const ProjectsSection = () => {
                         className="relative flex flex-col items-center cursor-pointer"
                         onClick={() =>
                           setActiveTooltip(
-                            activeTooltip === tech.label ? null : tech.label
+                            activeTooltip === tooltipKey ? null : tooltipKey
                           )
                         }
                       >
@@ -90,7 +91,7 @@ const ProjectsSection = () => {
                           className={`${tech.color} text-3xl hover:scale-110 transition duration-300`}
                         />
 
-                        {activeTooltip === tech.label && (
+                        {activeTooltip === tooltipKey && (
                           <div className="absolute top-full mt-2 bg-[#333] text-white text-sm px-3 py-1 rounded-md shadow-lg z-10">
                             {tech.label}
                           </div>
